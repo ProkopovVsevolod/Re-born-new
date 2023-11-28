@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    padding: 26px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header__list-item a{
+    color: black;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+}
+.header__other-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__other-nav > *:not(:last-child) {
+    margin-right: 45px;
+} 
+
+.header__other-nav button {
+    background-color: #71BEAB;
+    padding: 28px 35px;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.header__lang {
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer__contacts {
+    padding: 60px 0px;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__title {
+    margin-right: 376px;
+    font-size: 33px;
+    line-height: 46px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+
+}
+
+.footer__list {
+    margin-right: 435px;
+}
+
+.footer__list-item {
+    margin-bottom: 25px;
+}
+
+.footer__list-item a {
+    font-weight: 300;
+    color: white;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.footer__copyright {
+    margin-right: 57px;
+    font-size: 21px;
+    letter-spacing: 0.05em;
+}
+.footer__subscribe {
+    width: 50%;
+    padding: 50px 0 0 40px;
+}
+
+.footer__subscribe p:first-child {
+    font-size: 33px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer__text {
+    width: 700px;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+
+.footer__email {
+    margin-bottom: 26px;
+}
+.footer__email input {
+    margin-right: 40px;
+}
+
+.input {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    padding: 15px 0px;
+    width: 330px;
+    border-bottom: 2px solid #CCCCCD;
+}
+
+.button {
+    background-color: #71BEAB;
+    padding: 5px 35px;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.footer__label {
+    
+}
